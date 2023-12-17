@@ -5,7 +5,7 @@
 
 ## About this project
 
-The goal of this project is to create a coming soon landing page design according to the specifications provided by Frontend Mentor.
+The goal of this project is to create a coming soon landing page design according to the specifications provided by Frontend Mentor and utilize Javascript to perform a simple email validation and display error states. 
 
 ## Built Using
 
@@ -13,3 +13,4 @@ The goal of this project is to create a coming soon landing page design accordin
 - Desktop-first workflow
 - CSS custom properties
 - CSS Flexbox
+- Javascript
