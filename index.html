@@ -19,9 +19,13 @@
     <p>Subscribe and get notified</p>
     <div class="subscribe-form">
       <form>
-        <input type="email" placeholder="Your email address..." required>
-        <button class="subscribe-form-btn">Notify Me</button>
+        <div class="form-control">
+          <input type="email" placeholder="Your email address..." id="email">
+          <div id="errorText"></div>
+        </div>
+        <button class="subscribe-form-btn" id="submitBtn">Notify Me</button>
       </form>
+
     </div>
     <img src="./images/illustration-dashboard.png" alt="illustration-dashboard" class="illustration-dashboard">
     <div class="socials">
@@ -35,6 +39,9 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/andrewmartinn">Andrew Martin</a>.
   </div>
+
+  <!-- JS -->
+  <script src="./main.js"></script>
 </body>
 
 </html>
